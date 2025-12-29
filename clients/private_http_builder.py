@@ -1,7 +1,6 @@
 from httpx import Client
 
 from clients.authentication.authentication_client import get_authentication_client, LoginRequestDict
-from httpx_authentication import login_response
 from typing import TypedDict
 
 
