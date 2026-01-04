@@ -2,7 +2,7 @@ from httpx import Response
 from typing import TypedDict
 
 from clients.api_client import APIClient
-from clients.private_http_builder import AuthenticationUserDict, def_private_http_client
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
 class Exercise(TypedDict):
@@ -146,10 +146,10 @@ class ExercisesClient(APIClient):
         return response.json()
 
 
-def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
     :return: Готовый к использованию ExercisesClient.
     """
-    return ExercisesClient(client=def_private_http_client(user))
+    return ExercisesClient(client=get_private_http_client(user))
