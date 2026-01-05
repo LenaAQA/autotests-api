@@ -26,12 +26,3 @@ private_users_client = get_private_users_client(authentication_user)
 
 get_user_response = private_users_client.get_user(create_user_response.user.id)
 print("Get user data:", get_user_response)
-
-
-
-
-
-
-
-
-
