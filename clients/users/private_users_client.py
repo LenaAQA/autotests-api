@@ -5,7 +5,7 @@ from clients.private_http_builder import get_private_http_client, Authentication
 from clients.users.users_schema import UpdateUserRequestSchema, GetUserResponseSchema
 
 
-class PrivateUserClient(APIClient):
+class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
     """
@@ -50,11 +50,11 @@ class PrivateUserClient(APIClient):
         return GetUserResponseSchema.model_validate_json(response.text)
 
 
-def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUserClient:
+def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
     """
     Функция создаёт экземпляр PrivateUserClient с уже настроенным HTTP-клиентом.
 
     :return: Готовый к использованию PrivateUserClient.
     """
-    return PrivateUserClient(client=get_private_http_client(user))
+    return PrivateUsersClient(client=get_private_http_client(user))
 
