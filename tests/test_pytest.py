@@ -9,5 +9,3 @@ def test_assert_positive_case():
 def test_assert_negative_case():
     x, y = 5, 2
     assert (y + y) == x, "2 + 2 is not equals to 5"
-
-

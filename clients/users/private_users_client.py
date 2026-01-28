@@ -57,4 +57,3 @@ def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClie
     :return: Готовый к использованию PrivateUserClient.
     """
     return PrivateUsersClient(client=get_private_http_client(user))
-
