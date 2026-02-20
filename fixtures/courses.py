@@ -9,7 +9,7 @@ from pydantic import BaseModel
 
 class CourseFixture(BaseModel):
     request: CreateCourseRequestSchema
-    response:CreateCourseResponseSchema
+    response: CreateCourseResponseSchema
 
 
 @pytest.fixture
