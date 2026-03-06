@@ -3,8 +3,9 @@ from http import HTTPStatus
 import pytest
 
 from clients.courses.courses_client import CoursesClient
-from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
-    GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
+from clients.courses.courses_schema import (UpdateCourseRequestSchema, UpdateCourseResponseSchema,
+                                            GetCoursesQuerySchema, GetCoursesResponseSchema, CreateCourseRequestSchema,
+                                            CreateCourseResponseSchema)
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
