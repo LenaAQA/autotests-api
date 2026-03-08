@@ -67,8 +67,6 @@ class TestCourses:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create course")
     @allure.severity(Severity.BLOCKER)
-    @allure.parent_suite(AllureEpic.LMS)
-    @allure.suite(AllureFeature.AUTHENTICATION)
     @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(self, courses_client: CoursesClient, function_file: FileFixture, function_user: UserFixture):
         request = CreateCourseRequestSchema(
