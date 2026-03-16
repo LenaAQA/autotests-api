@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjMzLjU1NTY5MyIsInVzZXJfaWQiOiJjZGFlMDk0NC0yMjI4LTRmN2EtYjViNS05M2ZlNmYwZTU4NDUifQ.GeYwk-ZKyuREAWYLVAzzaK6F_NZrQ_2UqauvAw2jzBs'\
+  -H 'content-length: 443'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Great politics discover miss unit popular exist.","maxScore":53,"minScore":30,"description":"Only face break. Baby industry allow at stock energy.\nUnderstand money recognize American. Anyone blood meeting else.\nGive several black quite civil final. Trip actually state never my hand economy.","estimatedTime":"4 weeks","previewFileId":"1674e680-228c-42c0-a92f-6f08c0c3fb13","createdByUserId":"cdae0944-2228-4f7a-b5b5-93fe6f0e5845"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjM1LjQyMzY0MCIsInVzZXJfaWQiOiI5NjQxYmJmNC00NTEzLTRiZDItYWJiMy1lNzlhNDBmMzg2MDYifQ.NJvcFWuv0Qq_Nnoi4ezF-6XKkP6qPRr2rNTgoaVFo9M'\
+  -H 'content-length: 358'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Month necessary economy often technology contain.","maxScore":72,"minScore":28,"description":"Thus bad window page have me. Eye source whose suddenly adult. Only garden budget heavy scene program social drop.","estimatedTime":"7 weeks","previewFileId":"1c65084d-6a21-407d-aa31-2f0d973c689c","createdByUserId":"9641bbf4-4513-4bd2-abb3-e79a40f38606"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/cc91d57c-c749-47a2-b194-55f73799d3e2'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjMwLjg2NDE3MCIsInVzZXJfaWQiOiJlNDI2MTVjZS0wMDM2LTQ5ZmEtYTRmOC0xYzBlZGMwZWQ0MGQifQ.X2Vilr3XeQqYc3Rp6BZqb2v3on8NnFEJKNm672G4Y9w'\
+  -H 'content-length: 281'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Here may specific thus agreement to education.","maxScore":77,"minScore":3,"description":"Pm term inside whole every. No paper board involve unit contain. Free why agree represent message.\nConsider similar less another ago tonight serve safe.","estimatedTime":"9 weeks"}'

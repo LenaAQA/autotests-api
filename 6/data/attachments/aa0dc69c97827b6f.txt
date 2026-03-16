@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c04582aa-9376-43d1-8f27-0a850c4c949b
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c04582aa-9376-43d1-8f27-0a850c4c949b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:117 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to '68dc2021-3fb2-4bf4-a48e-023416da5f02'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Term discover ground history his little.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 'c04582aa-9376-43d1-8f27-0a850c4c949b'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '96'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '13'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to '33'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Difference voice draw. Month wear rest still report age. Fund director science list follow opportunity night good.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '3 weeks'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

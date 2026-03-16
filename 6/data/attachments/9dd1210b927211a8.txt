@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjMwLjg2NDE3MCIsInVzZXJfaWQiOiJlNDI2MTVjZS0wMDM2LTQ5ZmEtYTRmOC0xYzBlZGMwZWQ0MGQifQ.X2Vilr3XeQqYc3Rp6BZqb2v3on8NnFEJKNm672G4Y9w'\
+  -H 'content-length: 433'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Reflect defense down production space.","maxScore":95,"minScore":8,"description":"Song modern pattern hour hit may ahead store. Reality guess nature five within entire simple.\nRaise gas level measure tax. Foot among increase popular task represent once system. Car high ok general.","estimatedTime":"10 weeks","previewFileId":"89b78645-d773-42a4-9713-d709b78193b0","createdByUserId":"e42615ce-0036-49fa-a4f8-1c0edc0ed40d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjM0LjE1MDc4NSIsInVzZXJfaWQiOiIxYWFlM2ZiYi0wMTUyLTRkOWMtYWI5ZS0zM2ZmMGU1NDEyZTgifQ.WMSWE-ws4eoNDj5NdhKZWpHgHhN50tZq5mQuF-Ocbsk'\
+  -H 'content-length: 402'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Fact strong yes here line management.","maxScore":64,"minScore":19,"description":"Ahead friend expert toward thousand away magazine benefit. Forget account head week.\nMedical officer close task language. Republican message clear recognize throw if my.","estimatedTime":"2 weeks","previewFileId":"a61c6c92-3eb9-4b80-b54f-a091ede27f63","createdByUserId":"1aae3fbb-0152-4d9c-ab9e-33ff0e5412e8"}'

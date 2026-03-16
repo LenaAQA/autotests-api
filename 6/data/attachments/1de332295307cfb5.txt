@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjM1LjQyMzY0MCIsInVzZXJfaWQiOiI5NjQxYmJmNC00NTEzLTRiZDItYWJiMy1lNzlhNDBmMzg2MDYifQ.NJvcFWuv0Qq_Nnoi4ezF-6XKkP6qPRr2rNTgoaVFo9M'\
+  -H 'content-length: 303'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Term discover ground history his little.","courseId":"c04582aa-9376-43d1-8f27-0a850c4c949b","maxScore":96,"minScore":13,"orderIndex":33,"description":"Difference voice draw. Month wear rest still report age. Fund director science list follow opportunity night good.","estimatedTime":"3 weeks"}'

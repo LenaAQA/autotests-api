@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Open across truth movie.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '79'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '28'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Sometimes reason whatever project suddenly. Unit series bank. Return start employee foot education thing.
+Position across address seem safe down party add. Lawyer job quite.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '10 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'preview_file_id' equals to '58731202-b438-4a9a-b0c2-0e1eca27c05b'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'created_by_user_id' equals to '9c15eaff-7392-4e0c-a1a5-2f24a83da42e'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

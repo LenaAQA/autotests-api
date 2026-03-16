@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjE4OjM0Ljg0Mjg1MyIsInVzZXJfaWQiOiJlZDljMGUyNC03ZjRhLTQ0NDgtODIzYy02OTAxYWQyNzc2ZDQifQ.e3EQtT5n6IXiwsCGdncTmqBmCRACjeKhtzfAir5Wgu0'\
+  -H 'content-length: 376'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Property organization structure four floor.","maxScore":76,"minScore":7,"description":"My bill boy ball. Against policy character pass course own. Card blue born bar.\nInternational while try. Customer who role instead listen.","estimatedTime":"7 weeks","previewFileId":"77d1a150-aa5d-401f-b8c6-f3223d3a8319","createdByUserId":"ed9c0e24-7f4a-4448-823c-6901ad2776d4"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/cc91d57c-c749-47a2-b194-55f73799d3e2
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/cc91d57c-c749-47a2-b194-55f73799d3e2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Here may specific thus agreement to education.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '77'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '3'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Pm term inside whole every. No paper board involve unit contain. Free why agree represent message.
+Consider similar less another ago tonight serve safe.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '9 weeks'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema
