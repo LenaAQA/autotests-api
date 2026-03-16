@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjQwLjA0MjA2NiIsInVzZXJfaWQiOiJhZDNjNDg3MC03Y2E4LTRhMDctOTJmNS05M2U1OWIxOGZiMzkifQ.vaB_kzQ-TFo1W3d9OQdIpmyaZoWnj_OakDA8Ff17txo'\
+  -H 'content-length: 335'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Around national occur direction number seem town.","courseId":"7a4f703e-041b-4d14-88cd-b5908b44e724","maxScore":65,"minScore":5,"orderIndex":68,"description":"Current show summer green serve reveal follow. Later government better. Change though detail eight whom. Attorney exactly media pass skin.","estimatedTime":"5 weeks"}'

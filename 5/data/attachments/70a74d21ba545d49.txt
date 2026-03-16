@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjQwLjA0MjA2NiIsInVzZXJfaWQiOiJhZDNjNDg3MC03Y2E4LTRhMDctOTJmNS05M2U1OWIxOGZiMzkifQ.vaB_kzQ-TFo1W3d9OQdIpmyaZoWnj_OakDA8Ff17txo'\
+  -H 'content-length: 364'\
+  -H 'content-type: application/json'\
+  -d '{"title":"New reduce think college car change Democrat.","maxScore":88,"minScore":24,"description":"All night report behind seven ball middle. Production chair area both must. Him but degree whom material participant camera.","estimatedTime":"2 weeks","previewFileId":"eaca872e-7fd0-4ca3-97d9-a72e58f52c75","createdByUserId":"ad3c4870-7ca8-4a07-92f5-93e59b18fb39"}'

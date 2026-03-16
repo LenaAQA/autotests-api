@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/875abc7e-1df7-4694-a900-02191086ac93'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjM2LjM1MDUxMiIsInVzZXJfaWQiOiI3Y2Y1NWIxYS03MGVlLTQxZjItOTQwMi01Mjk0OGRkMTMzZTQifQ.h7bNd4vv_tcjiG8UOiLoM1ZcCA_gBEKfYk7OvESaW24'\
+  -H 'content-length: 235'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Color able today full himself authority which.","maxScore":57,"minScore":17,"description":"Who public same event. Point lose light answer both explain process. See evening land collection federal.","estimatedTime":"10 weeks"}'

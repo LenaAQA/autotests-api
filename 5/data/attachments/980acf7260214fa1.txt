@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjQwLjYyNDU1OCIsInVzZXJfaWQiOiIwZDgyM2YzYS1iNzM3LTRlZTYtOTQ0ZC04NTM1MDhlMGVkNmMifQ.0Mj23Sd_9UUhDaQL_ww0yYxugc9c1rgZnSlYbjxnqBc'\
+  -H 'content-length: 380'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Tell debate back strategy.","maxScore":78,"minScore":5,"description":"Economy institution well fund thought. Kitchen beautiful fear seek.\nMinute reach statement heart new. Matter without hope despite occur. Travel reach have ago.","estimatedTime":"6 weeks","previewFileId":"a15ae4bc-f87d-4010-aad4-f0ba4d9a8a60","createdByUserId":"0d823f3a-b737-4ee6-944d-853508e0ed6c"}'

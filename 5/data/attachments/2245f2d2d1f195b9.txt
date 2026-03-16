@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjM2Ljk0NTE0NyIsInVzZXJfaWQiOiI2YTFlNjhkZS1hODcyLTRjYTYtYWQxMS03MTY5ZWU4M2VjNjgifQ.1qMB6vzKek3nbeeCHcIdGg_6D4PumaYdIERn4k6FE8w'\
+  -H 'content-length: 364'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Coach treatment campaign hear meet fly.","maxScore":53,"minScore":7,"description":"Recently plant stuff popular. All month civil eight writer five.\nAccount good lose black clearly. Value someone sing always level.","estimatedTime":"6 weeks","previewFileId":"c6957011-48ec-45e3-af5b-1cbbcbf56661","createdByUserId":"6a1e68de-a872-4ca6-ad11-7169ee83ec68"}'

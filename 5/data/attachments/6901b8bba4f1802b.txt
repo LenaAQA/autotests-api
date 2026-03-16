@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjM2LjM1MDUxMiIsInVzZXJfaWQiOiI3Y2Y1NWIxYS03MGVlLTQxZjItOTQwMi01Mjk0OGRkMTMzZTQifQ.h7bNd4vv_tcjiG8UOiLoM1ZcCA_gBEKfYk7OvESaW24'\
+  -H 'content-length: 409'\
+  -H 'content-type: application/json'\
+  -d '{"title":"People receive way almost too.","maxScore":59,"minScore":5,"description":"Later mention finish agent group. Little much feeling tough resource election.\nRisk doctor international ball own amount American. Very political send agree for. Parent per population.","estimatedTime":"6 weeks","previewFileId":"6e65d25a-4f4c-4ac9-84bf-2b3a7dfd8a90","createdByUserId":"7cf55b1a-70ee-41f2-9402-52948dd133e4"}'

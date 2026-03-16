@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE2VDEzOjEzOjM5LjM1NjI0NSIsInVzZXJfaWQiOiI2MDZiNmYxNS04ZTFlLTQxNDQtYmY5MC05YjI4MGFkZmU4ODkifQ.0LjhuWNCpt-w_3Vl5oMbC3NiXDo_x4Uxuskflo55ZYc'\
+  -H 'content-length: 332'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Economy cold space individual suffer example career.","maxScore":78,"minScore":6,"description":"Must central development enjoy. Raise write late wonder. Argue mind skill floor cause.","estimatedTime":"8 weeks","previewFileId":"78da45dd-e29f-4b79-a166-4e743e4bd8a4","createdByUserId":"606b6f15-8e1e-4144-bf90-9b280adfe889"}'
