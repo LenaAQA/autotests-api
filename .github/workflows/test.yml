@@ -44,7 +44,7 @@ jobs:
 
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m regression --alluredir=allure-results --numprocesses=2
+          pytest -m regression --alluredir=allure-results --numprocesses 2
 
       - name: Get Allure history
         uses: actions/checkout@v6
@@ -58,10 +58,10 @@ jobs:
         uses: simple-elf/allure-report-action@v1.13
         if: always()
         with:
-          allure_results: build/allure-results
+          allure_results: allure-results
           allure_history: allure-history
 
-      - name: Deploy to GitHub  Pages
+      - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
