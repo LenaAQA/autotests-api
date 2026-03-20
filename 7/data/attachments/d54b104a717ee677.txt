@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjEzLjEwODIwOCIsInVzZXJfaWQiOiJkODhhODYwYS01MjUyLTQxZGUtYWRkYy1hOWNkYWQ0NWIxNzQifQ.AVpYb4F-mYzhARZVjTFDmTK-TzPtYpwyRL3hVZl33vg'\
+  -H 'content-length: 396'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Democratic major father hour their hair.","maxScore":71,"minScore":6,"description":"Billion edge rich save. Star site religious support participant case form.\nEspecially add civil group word. Check their major American represent newspaper learn.","estimatedTime":"9 weeks","previewFileId":"1160b3ae-5e6b-4df0-bca5-2f111bd38023","createdByUserId":"d88a860a-5252-41de-addc-a9cdad45b174"}'

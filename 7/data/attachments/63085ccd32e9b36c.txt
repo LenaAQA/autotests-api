@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjE0Ljg3NTQ0MyIsInVzZXJfaWQiOiI1YWViZjE3Ny1lNjM2LTQ4N2YtOTk3MS1iMjBkOGEyZWY2MDIifQ.nHNhZ2_VSqb-QXyV0b0Xdzrj6p4C7sYj-2k5WPVN6qE'\
+  -H 'content-length: 437'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Rich total quickly common able clearly close.","maxScore":51,"minScore":23,"description":"Style themselves hair. Point public upon foot final media.\nEffect research scientist friend figure address improve. Away scene sound cover style piece born. Public professional need likely father.","estimatedTime":"6 weeks","previewFileId":"006f30cc-498f-4937-a7e5-76081d756d87","createdByUserId":"5aebf177-e636-487f-9971-b20d8a2ef602"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/0be5ae51-99f3-4cea-8ce2-c4509b24ba38
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/0be5ae51-99f3-4cea-8ce2-c4509b24ba38
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to '0be5ae51-99f3-4cea-8ce2-c4509b24ba38'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Letter recently discussion and.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 'de712e68-e2cf-4233-8571-342829931f1a'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '77'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '18'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to '23'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Compare life pass way ever type police. Specific another run create. Skill close someone space customer people certainly.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '10 weeks'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

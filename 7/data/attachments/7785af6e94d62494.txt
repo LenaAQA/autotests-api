@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjE2LjE0MzE3MyIsInVzZXJfaWQiOiI2NTdlMjdjZC1iMzI3LTRjOGMtYmIzOC1iODk5MzdmOGFjODAifQ.A9jjW8OFLBBIAQq-M6_XkR8tsbhav-AjK4kb0JAWVzw'\
+  -H 'content-length: 331'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Let record push.","maxScore":77,"minScore":5,"description":"Yourself exist part care similar possible. Television represent shoulder feeling. Gun tough million factor recognize can.","estimatedTime":"9 weeks","previewFileId":"3749e413-1a26-46ec-8ac7-0fcf6634f929","createdByUserId":"657e27cd-b327-4c8c-bb38-b89937f8ac80"}'

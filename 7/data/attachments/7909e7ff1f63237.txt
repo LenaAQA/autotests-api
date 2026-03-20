@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/b30ff786-4db5-442a-90ee-76e8d027b0ca'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjExLjg3ODUyMSIsInVzZXJfaWQiOiI3ODA2YzY2Ni03NzFlLTRkOGQtOTEzNi01YjYwZDAxMDRkNzgifQ.edUfizCTygkeNjBU7zUbiODfy_IqYBK-7eFsxf40TdQ'\
+  -H 'content-length: 195'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Even probably leave serious book.","maxScore":62,"minScore":15,"description":"Up travel concern term meeting apply. Civil yard open artist happy move dinner.","estimatedTime":"2 weeks"}'

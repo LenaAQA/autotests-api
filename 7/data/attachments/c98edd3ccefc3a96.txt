@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjEyLjQ2Mjk1NyIsInVzZXJfaWQiOiIyNmZlODJiYi0xY2YzLTQzZmQtOGI0NS1jMjk1NGRkMmY5OWUifQ.SJrbwhhzjBadELyFzqATNhRR98Mn0SYqpcUXTU5IqWE'\
+  -H 'content-length: 374'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Democratic floor film turn now.","maxScore":75,"minScore":22,"description":"Take set budget oil. Authority phone step ball design couple wrong.\nSuffer door would. Before four focus listen her. Should degree take use shake.","estimatedTime":"10 weeks","previewFileId":"087beeaa-a343-4b63-b89b-6585fb7baece","createdByUserId":"26fe82bb-1cf3-43fd-8b45-c2954dd2f99e"}'

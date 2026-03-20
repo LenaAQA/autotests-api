@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjExLjg3ODUyMSIsInVzZXJfaWQiOiI3ODA2YzY2Ni03NzFlLTRkOGQtOTEzNi01YjYwZDAxMDRkNzgifQ.edUfizCTygkeNjBU7zUbiODfy_IqYBK-7eFsxf40TdQ'\
+  -H 'content-length: 376'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Half research degree money.","maxScore":56,"minScore":4,"description":"Society goal share space before politics. Exist any budget wife make continue fire.\nReason mean morning amount now. Left box it hard statement once which.","estimatedTime":"4 weeks","previewFileId":"35fa3521-951d-4b0a-84b8-8467083251cf","createdByUserId":"7806c666-771e-4d8d-9136-5b60d0104d78"}'

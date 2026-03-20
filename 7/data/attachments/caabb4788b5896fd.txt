@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM2OjE1LjU2NzY1NiIsInVzZXJfaWQiOiI0ZGQxNzNlZC1iNzI4LTRhMDYtYTlmMS1kMWZiMjdiMDlhMzkifQ.MmJWsGT2hFZV-m78ipVBw_n_QbDeOaS93sIPFeP9yrI'\
+  -H 'content-length: 431'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Kind them act particularly meeting order another.","maxScore":66,"minScore":7,"description":"General experience break kind magazine west. Tv speak boy account see after. Be subject arrive.\nGoal training season everybody sit good. Campaign somebody green quality large why travel.","estimatedTime":"10 weeks","previewFileId":"ae93d56a-add0-468a-94aa-9bc1c101e496","createdByUserId":"4dd173ed-b728-4a06-a9f1-d1fb27b09a39"}'
