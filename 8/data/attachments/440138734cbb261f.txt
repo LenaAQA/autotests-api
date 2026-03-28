@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjA0OjIyLjA4OTIzMSIsInVzZXJfaWQiOiJhNzYyZWEwZC0wOTg1LTQ4YjgtYjIwOS00YjQ3N2YzZGZiNWEifQ.vnMB6WxTxsb-CabQh6c2M9NLIYHA-VMdKQzNA-uJGIg'\
+  -H 'content-length: 433'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Vote couple at environmental medical guy result.","maxScore":88,"minScore":25,"description":"Month three than tax meet miss economic cup. Another buy too this.\nReality owner I despite argue fly itself. Look save office officer study. Everything receive thousand issue new who least.","estimatedTime":"6 weeks","previewFileId":"db8c2a03-43dc-43e1-a23e-af9bbef3911f","createdByUserId":"a762ea0d-0985-48b8-b209-4b477f3dfb5a"}'

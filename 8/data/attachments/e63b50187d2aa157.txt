@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjA0OjIzLjI2NDA4OCIsInVzZXJfaWQiOiI3NDkxMDlmMS1hZWQyLTQ3ODEtOTVkNS0wNTFlOGI3ODllYjkifQ.qn6BVZOo0AVapW7vd_QNKL5MTeunUYyo3xks1JxvXkc'\
+  -H 'content-length: 443'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Probably and professional bar plan development late.","maxScore":78,"minScore":10,"description":"Grow your energy wear southern ready unit. Market information conference real whole measure majority yard. Whom property degree at.\nEnter PM people ever step majority. Watch perform fund contain.","estimatedTime":"8 weeks","previewFileId":"f57e78c8-12e2-485e-94fd-572cf7d0f5e8","createdByUserId":"749109f1-aed2-4781-95d5-051e8b789eb9"}'

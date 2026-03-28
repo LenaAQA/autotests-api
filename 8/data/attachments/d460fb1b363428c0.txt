@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjA0OjIxLjUyNzQ2NyIsInVzZXJfaWQiOiI2NWI3ZGRiYS05MjYxLTQwZDEtYWFmYi1lZTE3YzE3ZTQ3YTcifQ.mqkTIS0nFewmCu8_UbZ8hCxvh9qmNZDBJURCxe3wIXI'\
+  -H 'content-length: 354'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Alone eye friend we reach vote collection low.","courseId":"ab15b488-cb05-4dde-a438-3ce9e772fd4d","maxScore":62,"minScore":6,"orderIndex":53,"description":"Talk south see six ten star require point.\nLight kitchen father pull at establish all region.\nSmile trip until work improve laugh. Before mouth main talk run.","estimatedTime":"1 weeks"}'

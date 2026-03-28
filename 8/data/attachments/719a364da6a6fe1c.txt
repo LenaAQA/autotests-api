@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjA0OjE5LjU1MDI5NSIsInVzZXJfaWQiOiI4YzI1OTIwNy1kMzEzLTRmYjItYmQ2OS0zZjA5YTk0YzAzZDAifQ.f26q8daWi3TFWFcqmw3qLvPn_DkbfMSMSbuLLmWUXeI'\
+  -H 'content-length: 424'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Affect school plant remember central least company.","maxScore":94,"minScore":9,"description":"Someone physical risk. Then learn decide benefit purpose throw. Step teach scene require record off different.\nRepublican reveal beautiful oil page. Company after describe white.","estimatedTime":"3 weeks","previewFileId":"8f0b0d98-3044-4d01-8404-6920d7cdb9ef","createdByUserId":"8c259207-d313-4fb2-bd69-3f09a94c03d0"}'

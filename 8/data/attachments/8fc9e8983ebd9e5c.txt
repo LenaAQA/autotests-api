@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/1bc0826f-ed94-4f79-999c-69a00e11da1f
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/1bc0826f-ed94-4f79-999c-69a00e11da1f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to '1bc0826f-ed94-4f79-999c-69a00e11da1f'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Near late social test president before.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 'aab331ee-94c3-4d64-af5b-f3cd59350e8a'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '93'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '8'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to '91'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Along minute maintain network other about environmental. Nature part action day business step produce.
+Above choice give senior. Design thus win person good.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '7 weeks'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

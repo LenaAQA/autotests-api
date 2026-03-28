@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjA0OjIyLjY1MTIxMiIsInVzZXJfaWQiOiJlZDMzM2IyOS03ZmYwLTRjYmUtYjU5MC03N2ViYWQ1N2IxOWIifQ.thFC3jVuV_w7S54UGq1c7TJcC-lo0UusQLR_qrgTqso'\
+  -H 'content-length: 426'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Serve growth behind matter stage.","maxScore":53,"minScore":20,"description":"Wall natural rule dinner two nature international quite. Indeed official read.\nPerson magazine point black with. Cold movement analysis gun sit blood hear.\nStreet job wait board foreign leave try.","estimatedTime":"9 weeks","previewFileId":"2cc8bd45-a299-4436-a05a-0bb050bd306a","createdByUserId":"ed333b29-7ff0-4cbe-b590-77ebad57b19b"}'
