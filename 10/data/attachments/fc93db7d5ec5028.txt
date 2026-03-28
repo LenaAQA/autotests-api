@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ2LjIzMTI5OSIsInVzZXJfaWQiOiI5NDZjYTc4Yi1jNjdhLTQ5ZmYtYTkzMS0yM2RlMGMzNjQ0YzYifQ.4YHIG8dN2mjZkJ2p90hw07h3HFH2FyJJpAXUXwZgdS8'\
+  -H 'content-length: 409'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Control ready foot range upon defense people.","maxScore":79,"minScore":24,"description":"Board build hard by. Likely significant tend worker think account. Network they father spring.\nArgue whatever single argue art. Hundred ready across miss modern theory.","estimatedTime":"9 weeks","previewFileId":"743caf5d-4d2f-4e47-9860-bec5bba7a675","createdByUserId":"946ca78b-c67a-49ff-a931-23de0c3644c6"}'

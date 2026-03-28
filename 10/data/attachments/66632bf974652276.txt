@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ1LjA1NDg5NiIsInVzZXJfaWQiOiI4YmMzNGFjYS1hZWIyLTQ0M2QtOGNkNS0xZDY1ODVmZmM2NDcifQ.8s03u-isl5TaSMC6bGsB6DcbWzeRx-dLn0exBmOdvHY'\
+  -H 'content-length: 386'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Dark read page administration.","maxScore":97,"minScore":28,"description":"My guy fly when better side. Blue clearly look actually argue class.\nNear song major discuss expect move dream. Hold carry this minute. Easy I kitchen what two.","estimatedTime":"8 weeks","previewFileId":"e599acff-6511-442c-b817-40d916c94a3f","createdByUserId":"8bc34aca-aeb2-443d-8cd5-1d6585ffc647"}'

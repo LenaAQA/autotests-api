@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Call party speech sense Republican turn decision.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '58'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '10'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Citizen both structure federal. Near training figure foot nice.
+Direction near performance identify base film offer. Use country must themselves behavior tell true. Station social key key.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '4 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'preview_file_id' equals to 'a4ff3fbf-911d-4afc-a22d-42d29b8cd878'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'created_by_user_id' equals to '69963bb9-2f6f-4457-acf6-775aea58722d'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

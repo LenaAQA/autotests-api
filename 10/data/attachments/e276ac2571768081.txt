@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/exercises/80db14ae-9be1-4282-a1bf-db4193f4d564'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ1LjY0MzMxNiIsInVzZXJfaWQiOiJmMGNiMmRiYy0zMGMwLTQ0MDctODM3OS01NzhmMjE1ZjZlMWYifQ.DtvfCS6T1totx1kOAMKWsPsDE3wuWBPQWvkDgq1nkjQ'\
+  -H 'content-length: 318'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Policy condition receive particular sort not leg.","maxScore":74,"minScore":6,"orderIndex":21,"description":"Fine so lead soon. Each together all husband leg image test. Mr oil agree station power trade believe.\nRed weight product have bit trade. Hope occur other threat reflect.","estimatedTime":"1 weeks"}'

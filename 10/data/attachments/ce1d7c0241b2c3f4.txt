@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ3LjQ5MTU2MCIsInVzZXJfaWQiOiI4NzhmOGQ2NC01MzQwLTRmMzYtYWQ0ZS04Njk0ZTJmNjRhN2EifQ.eBk8eWXZc4aO72S86jCtcIuMjFwnauVQfkEX_AZMS40'\
+  -H 'content-length: 311'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Get card class guy.","courseId":"bf426e0f-fd54-45f2-a564-3d08057614b9","maxScore":57,"minScore":28,"orderIndex":72,"description":"Executive fire perform energy if after. Social join common can opportunity pay morning. Opportunity leave investment common full maybe tonight.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ3LjQ5MTU2MCIsInVzZXJfaWQiOiI4NzhmOGQ2NC01MzQwLTRmMzYtYWQ0ZS04Njk0ZTJmNjRhN2EifQ.eBk8eWXZc4aO72S86jCtcIuMjFwnauVQfkEX_AZMS40'\
+  -H 'content-length: 325'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Indeed line room color.","maxScore":79,"minScore":13,"description":"Prepare term network want. Nothing effort however within. Raise last expert understand. Give property grow.","estimatedTime":"7 weeks","previewFileId":"7d0737d6-c0cd-4fa2-97fa-c5cd84b980d6","createdByUserId":"878f8d64-5340-4f36-ad4e-8694e2f64a7a"}'

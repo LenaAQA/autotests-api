@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/bcf018ef-4220-4917-b073-d25ad96c1b32'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQyLjk4NTE5OCIsInVzZXJfaWQiOiJhMGY5MzYwYS00ZTA4LTRhOTUtOTliOC0wYTQxYTI1ZTc4YmYifQ.j8fOFGDbDuYAdiPeZR6f-jrQvRZuzEBU1IR2qfu0lkw'\
+  -H 'content-length: 170'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Process TV think.","maxScore":50,"minScore":20,"description":"Establish morning quality. Future large painting send stay television.","estimatedTime":"1 weeks"}'

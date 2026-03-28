@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQzLjg4MDIwNiIsInVzZXJfaWQiOiJlMjVjODFlYy1mZTljLTQ4NjItYTBjOC0wZDY2N2NkZmQxNGUifQ.1XmT9At6F45d3PQDgdbRvd63sxKg4Q2VpzbnwQD_FQc'\
+  -H 'content-length: 403'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Wonder factor add resource seven drop threat.","maxScore":62,"minScore":19,"description":"Difference yourself future couple claim. Surface actually prepare heavy as friend. Test member white religious.\nTechnology nothing want loss summer money soldier.","estimatedTime":"8 weeks","previewFileId":"affcc966-37d4-4fa0-9f92-7d161ffc0d91","createdByUserId":"e25c81ec-fe9c-4862-a0c8-0d667cdfd14e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQ1LjY0MzMxNiIsInVzZXJfaWQiOiJmMGNiMmRiYy0zMGMwLTQ0MDctODM3OS01NzhmMjE1ZjZlMWYifQ.DtvfCS6T1totx1kOAMKWsPsDE3wuWBPQWvkDgq1nkjQ'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Then lawyer size some.","maxScore":71,"minScore":5,"description":"Friend walk point focus.\nUs paper picture pretty.\nTreat change popular star piece north much. Himself dog beyond movement firm reach. Around usually wall.","estimatedTime":"6 weeks","previewFileId":"f686bb70-c22f-448e-999d-304513333fe9","createdByUserId":"f0cb2dbc-30c0-4407-8379-578f215f6e1f"}'

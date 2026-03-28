@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE1OjQyLjk4NTE5OCIsInVzZXJfaWQiOiJhMGY5MzYwYS00ZTA4LTRhOTUtOTliOC0wYTQxYTI1ZTc4YmYifQ.j8fOFGDbDuYAdiPeZR6f-jrQvRZuzEBU1IR2qfu0lkw'\
+  -H 'content-length: 423'\
+  -H 'content-type: application/json'\
+  -d '{"title":"School recognize research onto several.","maxScore":91,"minScore":22,"description":"Anything voice require term tax science. Health window environmental very article.\nProfessional increase really message weight ability. Would upon clear radio behind. Leave early dark two.","estimatedTime":"1 weeks","previewFileId":"20cfa677-8b9a-4975-8150-25f3750333bf","createdByUserId":"a0f9360a-4e08-4a95-99b8-0a41a25e78bf"}'
