@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE0OjEzLjc2ODI3MSIsInVzZXJfaWQiOiJlYTFhYWQ4Zi1kNGVlLTQzZjUtOTc3NS03ODQ2OGE4ZDFjMWYifQ.rGkcCqDgwX99LqIPst-usBCSpWRkVHeZ1XXONh_oqso'\
+  -H 'content-length: 440'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Situation never call including often still policy.","maxScore":70,"minScore":7,"description":"Artist whether buy too. Nice run woman similar. Agency those avoid popular.\nTeacher specific course big trade. About participant threat job voice international. Ago at big under very attack item.","estimatedTime":"9 weeks","previewFileId":"e0d3a2e1-9964-4825-a83b-82b5f88919a1","createdByUserId":"ea1aad8f-d4ee-43f5-9775-78468a8d1c1f"}'

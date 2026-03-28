@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE0OjEyLjI5MTQ0NyIsInVzZXJfaWQiOiJmZDA0MGIyZS1lODlkLTQ4OWEtYmMyOC03ZWFiYTdlMDY1NGIifQ.f1xM2fRGbcnnEgCcBLIgLMJsL1a97m6RH2kh3xVadyU'\
+  -H 'content-length: 408'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Material rise back start.","maxScore":53,"minScore":27,"description":"Direction whatever occur choice expect reach keep. Policy spring per theory ability raise hard. Government provide assume west main represent.\nRegion leave machine central mother concern.","estimatedTime":"4 weeks","previewFileId":"70b0ff4b-247b-4b1f-938a-041882ed8f76","createdByUserId":"fd040b2e-e89d-489a-bc28-7eaba7e0654b"}'

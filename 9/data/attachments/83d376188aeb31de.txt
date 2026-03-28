@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE0OjE2LjE5NjAzOCIsInVzZXJfaWQiOiIwMjE4OTBlMC03MWI2LTQ1MjctYTY2Zi1lNjhkNWQ2MGFhYjQifQ.6fs3APcmu-w7wStDWKSJ9xj_DuBKCc4_fqcVE_yYN68'\
+  -H 'content-length: 425'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Leave among environment poor color work.","maxScore":60,"minScore":2,"description":"Least but work form start. Approach teacher contain.\nWorld method until well who high amount. Than win agree large.\nDoctor on reach stop cup. Quickly recognize how response hotel store six.","estimatedTime":"8 weeks","previewFileId":"1fea15d6-b448-48cf-b764-2e3e2c05542c","createdByUserId":"021890e0-71b6-4527-a66f-e68d5d60aab4"}'

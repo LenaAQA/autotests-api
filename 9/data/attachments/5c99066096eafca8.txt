@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE0OjE1LjUxNDIwNyIsInVzZXJfaWQiOiIwMmQ3ODlhYy0wNTBiLTRkNGMtYmE2ZC1kMzZiNzlmNTdjMDAifQ.ieWZrvjo0BrC5xrkKG_pLsSzH1odZnW3XitshOrH35c'\
+  -H 'content-length: 339'\
+  -H 'content-type: application/json'\
+  -d '{"title":"War staff remember let.","maxScore":60,"minScore":30,"description":"Social have human believe crime push task. Degree good together heavy station argue bank soon. Them special stand nature.","estimatedTime":"3 weeks","previewFileId":"4c5763b9-f19a-49d1-b0b7-476dfe4e298d","createdByUserId":"02d789ac-050b-4d4c-ba6d-d36b79f57c00"}'

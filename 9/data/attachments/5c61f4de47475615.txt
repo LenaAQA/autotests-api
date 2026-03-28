@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/5c2c4e79-37b6-4a4a-9295-0f28b45a9134'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDIwOjE0OjEyLjI5MTQ0NyIsInVzZXJfaWQiOiJmZDA0MGIyZS1lODlkLTQ4OWEtYmMyOC03ZWFiYTdlMDY1NGIifQ.f1xM2fRGbcnnEgCcBLIgLMJsL1a97m6RH2kh3xVadyU'\
+  -H 'content-length: 239'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Season middle Mrs threat with.","maxScore":61,"minScore":19,"description":"Long person good even.\nEarly present large difference detail. Cup everybody firm hundred join why get. Billion read low only.","estimatedTime":"8 weeks"}'
