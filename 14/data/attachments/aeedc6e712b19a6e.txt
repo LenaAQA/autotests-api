@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjA2LjM1MDgzMiIsInVzZXJfaWQiOiIyZDYxNjY3Ny1mMWZhLTQ3Y2EtOGVlMy1iZTc3NzIwZDRmMjEifQ.P8qBvuZqJF2kSNc8YYl9Zjgp584RKQaeW1X1qzn0ypg'\
+  -H 'content-length: 370'\
+  -H 'content-type: application/json'\
+  -d '{"title":"As view year toward performance student television.","courseId":"2ada2133-65f1-4151-a6bf-3ac15ee4149d","maxScore":65,"minScore":26,"orderIndex":83,"description":"Shake dinner generation lawyer success suffer style arrive. Security hard herself throughout. Floor wife throw. Clearly rich whether start commercial explain left before.","estimatedTime":"7 weeks"}'

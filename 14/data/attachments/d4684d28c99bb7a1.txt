@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjA2LjM1MDgzMiIsInVzZXJfaWQiOiIyZDYxNjY3Ny1mMWZhLTQ3Y2EtOGVlMy1iZTc3NzIwZDRmMjEifQ.P8qBvuZqJF2kSNc8YYl9Zjgp584RKQaeW1X1qzn0ypg'\
+  -H 'content-length: 408'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Could these only mother.","maxScore":94,"minScore":4,"description":"Threat car drop by bag stand age. Coach mouth tough candidate wall probably.\nCourt sometimes during fill foot trip. Physical reveal budget teach go. Pretty accept news degree old name wind.","estimatedTime":"8 weeks","previewFileId":"7a2d6d91-467a-46d1-aeef-41791b2bc654","createdByUserId":"2d616677-f1fa-47ca-8ee3-be77720d4f21"}'

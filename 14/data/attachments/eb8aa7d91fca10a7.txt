@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjAyLjU0Nzg2NyIsInVzZXJfaWQiOiJhODQwMjFiYy01YTNmLTQwMDAtYWM2YS1lMGI3ZTNhOTdiMWIifQ.8A0HIIkUnWXHS0RJU-Z2-B9nXPySLO5crdwsnpFENuI'\
+  -H 'content-length: 387'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Carry practice wear yard billion.","maxScore":72,"minScore":25,"description":"Tough push face senior edge here.\nPlace over describe least despite. Local bank everybody never wait. Prevent idea citizen bed style establish western always.","estimatedTime":"1 weeks","previewFileId":"5738c91e-b96b-4751-b724-fe90234388df","createdByUserId":"a84021bc-5a3f-4000-ac6a-e0b7e3a97b1b"}'

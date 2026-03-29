@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/0853fba2-7c16-49a6-a672-97ecbd142f1e'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjAyLjU0Nzg2NyIsInVzZXJfaWQiOiJhODQwMjFiYy01YTNmLTQwMDAtYWM2YS1lMGI3ZTNhOTdiMWIifQ.8A0HIIkUnWXHS0RJU-Z2-B9nXPySLO5crdwsnpFENuI'\
+  -H 'content-length: 290'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Politics before rest same trade foreign new.","maxScore":84,"minScore":13,"description":"Maybe movement particular measure. Cover foreign enter defense laugh high. Charge pretty or increase prepare throughout marriage. Myself though sell first society.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjA2LjA3NTcwNiIsInVzZXJfaWQiOiI2MGQwYjllMy00YTM1LTQ4OGMtODQyNy00ZDZiMjczZmUwOWYifQ.eF9rTlvV9WlZfnLTmov76QnssXCYeORKPTR2pBqowfI'\
+  -H 'content-length: 386'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Miss player reduce parent want news maintain.","courseId":"8583d381-9767-4f99-bfd6-a782773e2fb7","maxScore":67,"minScore":7,"orderIndex":36,"description":"Once set professor tonight important investment. Form ago bring so ever whole decade near.\nTable per rest game toward. New per pretty section garden common. Hotel firm anything scene smile it.","estimatedTime":"8 weeks"}'

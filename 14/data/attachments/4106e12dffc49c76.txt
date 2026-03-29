@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjA0Ljg4NzEwMiIsInVzZXJfaWQiOiIyNjFmZWRjMi1kZGRlLTQ5MzQtOTVkOC1jZWQ1Yzg1MWQ0OGQifQ.fJLA5aIKWOzgasm57XRYuV67D3bRLe__w_SFnlEENgA'\
+  -H 'content-length: 392'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Age new democratic phone sit popular experience bed.","maxScore":100,"minScore":13,"description":"Source government term but. These true end trade seem family.\nDoctor stuff positive. Clear college single sign smile. Road second network time.","estimatedTime":"9 weeks","previewFileId":"07a57b18-06eb-4439-850e-1812a6573136","createdByUserId":"261fedc2-ddde-4934-95d8-ced5c851d48d"}'

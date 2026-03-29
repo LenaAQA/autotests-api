@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjAzLjk3MzU0MyIsInVzZXJfaWQiOiIyYmFlZDc5My1lZjI5LTQ0MjEtOWIxYy1lMzRhMmNmOGZkNjMifQ.NGk2Qf74knhc4i9JZq2yhijy2fnZ6-zmrGy3RefTxbk'\
+  -H 'content-length: 398'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Seem address hospital.","maxScore":65,"minScore":26,"description":"Director forward leave dog hundred while bring. Difficult article discussion often have. Head compare before.\nThe yeah create though push small art. Significant it collection seat.","estimatedTime":"1 weeks","previewFileId":"3cf1f03c-6626-4055-8426-f17a8c6f959e","createdByUserId":"2baed793-ef29-4421-9b1c-e34a2cf8fd63"}'

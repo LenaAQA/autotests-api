@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM3OjA3LjMxOTc4NSIsInVzZXJfaWQiOiI5ZmQ2YTZlOS0zM2IxLTRhYzMtYmY5NC0zMTc3Zjg2OWY2NWQifQ.nuNuVjhgW8xpts1r57YHsqZJqj7Dyp3woD54I7sCAkY'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Decision clear spring.","maxScore":88,"minScore":3,"description":"Sing choose hundred hundred. Audience hair within dark but son. Building skill task responsibility. Instead system money hard begin result result professor.","estimatedTime":"7 weeks","previewFileId":"7c3f79e8-bc35-4f76-91d2-84ba511cc898","createdByUserId":"9fd6a6e9-33b1-4ac3-bf94-3177f869f65d"}'
