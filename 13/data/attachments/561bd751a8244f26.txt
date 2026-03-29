@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjEyLjQ3NDc4MyIsInVzZXJfaWQiOiIxMDc3MzJlMy05ODUxLTRjYWQtOWM2Mi1jMjZlMTE0NzhhMjAifQ.AgvgBtRh-hrqXVq5C_Dcnw5uTEY8rl9vEbABNSUbNqI'\
+  -H 'content-length: 315'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Material consider real conference tell believe.","maxScore":63,"minScore":14,"description":"Across character house explain soldier. Every media three magazine stuff.","estimatedTime":"6 weeks","previewFileId":"78956c01-98f1-4eb9-95c1-4e59299b647d","createdByUserId":"107732e3-9851-4cad-9c62-c26e11478a20"}'

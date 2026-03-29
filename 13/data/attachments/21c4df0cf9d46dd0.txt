@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjA5LjgxNzg4MSIsInVzZXJfaWQiOiI2YTk2NWUzZS1iMWQ3LTRkODItYTc3Ny1lMzliNDFmZjY0NjUifQ.WpECWg3uJFh9C8bL1Ln1vqdnR2RcqejjSkgckY0GS48'\
+  -H 'content-length: 411'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Audience hear so world magazine just toward.","maxScore":76,"minScore":13,"description":"Thank interview that base yes knowledge dog reach. Would third task big structure energy make. Source cultural challenge question. Mouth involve tough ask character person.","estimatedTime":"1 weeks","previewFileId":"7ccb4152-56f9-4784-b4e0-96525ed95c2a","createdByUserId":"6a965e3e-b1d7-4d82-a777-e39b41ff6465"}'

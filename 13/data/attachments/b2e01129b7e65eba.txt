@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjEzLjEwMzczOCIsInVzZXJfaWQiOiI3N2IzODhkNC1hYzA1LTQ5MjMtOWIxNy1iM2M0ZTkwNWZiM2QifQ.Vz_tEfZi-AF9Xe51kfz3s-Jx-HRkwVh32pdHmrNeRlo'\
+  -H 'content-length: 428'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Though establish president real since by character.","maxScore":72,"minScore":1,"description":"Table local authority best scene build.\nWithout different bad debate require later. Inside argue score.\nParticularly outside I one. Race them car situation present example somebody.","estimatedTime":"1 weeks","previewFileId":"fcd9ee78-23cd-4a1f-be0e-f54e576741e2","createdByUserId":"77b388d4-ac05-4923-9b17-b3c4e905fb3d"}'

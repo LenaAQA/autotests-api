@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjEzLjY5NDQzNSIsInVzZXJfaWQiOiI2Y2FiYTY5MC0xNzY5LTQ3NzAtOTUzMC1iMjNiYWIxMDIyZjAifQ.aiJkRAw7HV_XPDgJhg1olTnvHiuLljC4iKNK_EUOEmE'\
+  -H 'content-length: 401'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Top campaign very brother.","maxScore":89,"minScore":17,"description":"Generation other present art exist possible. Current would play father. Leader two possible seem property medical in.\nHigh chance and somebody method total. Begin then almost pay.","estimatedTime":"5 weeks","previewFileId":"a3f354db-2f41-46e1-abd0-aebfc0645b09","createdByUserId":"6caba690-1769-4770-9530-b23bab1022f0"}'

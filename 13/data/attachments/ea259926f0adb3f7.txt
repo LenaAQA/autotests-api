@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjExLjMwOTQzOCIsInVzZXJfaWQiOiJmYjZhZGQyMS01ZGM4LTQ4YWYtODJhNS02NWQ1NjAyZWIyOGEifQ.Oy1XRWNeOjjLdz_g2DmfYdP_3LyqnsK1Mjd2UVWCZr0'\
+  -H 'content-length: 327'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Today resource strategy thousand area white hour hard.","maxScore":59,"minScore":9,"description":"Various of car away take soon require affect. Rate plan down record local most.","estimatedTime":"2 weeks","previewFileId":"c2c3dba5-8b11-4b14-9ae5-045a26ae73f0","createdByUserId":"fb6add21-5dc8-48af-82a5-65d5602eb28a"}'

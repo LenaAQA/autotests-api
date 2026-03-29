@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjEwLjcyNTE0NSIsInVzZXJfaWQiOiI4NDdiZDkzZS01MzFhLTQ0MzktOTgwNi04OWU3MTk0NzY0YTQifQ.NgQ_0SzxLBqRfE8y_lb09CJ79pLgziRd-4sv9RfznYo'\
+  -H 'content-length: 373'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Middle save everyone task.","maxScore":52,"minScore":1,"description":"Artist happy join forget see method. Able prepare sense west according practice.\nCourt set really ground forward. Deal wear water style experience both.","estimatedTime":"9 weeks","previewFileId":"ac05e372-17ea-4ca2-9885-6c80c8a74aef","createdByUserId":"847bd93e-531a-4439-9806-89e7194764a4"}'

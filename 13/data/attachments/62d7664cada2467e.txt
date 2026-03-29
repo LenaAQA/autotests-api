@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjM1OjE0LjM1NTAyOSIsInVzZXJfaWQiOiJmNGI0NWViYS1jZDI5LTRkNDQtODZhZS02YjFjYzdjYzgyMjQifQ.3uTNzEtVBMCHTWZ-nY0-cKlFDVAJNoUYLE8nDKBXZ8Y'\
+  -H 'content-length: 407'\
+  -H 'content-type: application/json'\
+  -d '{"title":"News key yourself grow.","maxScore":67,"minScore":20,"description":"Rate worker each myself indeed. Partner look start official star in.\nSome before available single threat. Whether affect own paper.\nCell yet put art. Back less let fear soon dark another.","estimatedTime":"2 weeks","previewFileId":"cdec9899-98fb-47b7-a4ab-9dfb3221cdb1","createdByUserId":"f4b45eba-cd29-4d44-86ae-6b1cc7cc8224"}'
