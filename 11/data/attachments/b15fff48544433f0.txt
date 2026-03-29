@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/af488fe4-d9b8-4bd7-aec4-0576b5f332de'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjMwLjkwNzk1MiIsInVzZXJfaWQiOiJmYWExYWMwZi1hYjExLTQxNzktOGFmYS0xYjM4NzMyMDIyNGMifQ.7Zn-XSfiGGIx6PBSIH49L4p8ejUcyQBHF1y5CfPPYhE'\
+  -H 'content-length: 256'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Successful church end board decision coach.","maxScore":80,"minScore":29,"description":"His impact also trip house cell lead.\nInto six left protect. Grow trade success edge story fill no. Shake chair prove want guess.","estimatedTime":"7 weeks"}'

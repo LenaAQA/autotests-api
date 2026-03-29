@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjM0LjIxMDkwMCIsInVzZXJfaWQiOiJlMjdkMzdmZi00Y2QyLTQxYzMtYTMwMy03NzYzMzdhYjJjNGYifQ.jUQM5gIQA5aWoc0SrQbZajyzE_kkhnDnXcdp8C6fBn0'\
+  -H 'content-length: 346'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Anyone nor discover start wish.","maxScore":85,"minScore":7,"description":"Office unit specific successful government realize wind. Help might feeling project.\nAdult window break only population.","estimatedTime":"7 weeks","previewFileId":"72029b9c-ce6f-4fe8-9e42-483785773355","createdByUserId":"e27d37ff-4cd2-41c3-a303-776337ab2c4f"}'

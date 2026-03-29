@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjM1LjQ4MDIyNiIsInVzZXJfaWQiOiI0MjQ4MzZjMi03ZWQ1LTRjNjgtYWU3Zi0yYTBjNjY2MWVjMjQifQ.eJ_Joj52RicFrr0plAq7pkg5Fb2TYvI7wSHPEVzSOzU'\
+  -H 'content-length: 379'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Face glass final morning happy exactly.","maxScore":54,"minScore":7,"description":"Difference according together last. Network town surface type fill bring.\nCandidate ground professional can maybe. International nature shoulder.","estimatedTime":"8 weeks","previewFileId":"b772e9d5-ad69-472f-8b40-01903bb37e84","createdByUserId":"424836c2-7ed5-4c68-ae7f-2a0c6661ec24"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjM0LjgwMTI5NiIsInVzZXJfaWQiOiIyZTE2NjlhZC1mZmRmLTQ5YTMtYTRkNS1hYjIxZTNiMDNmZGUifQ.G-nigE6H7pPyLTR_i9mYQ6O50ttUbphJ4oQu15pYY8E'\
+  -H 'content-length: 368'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Safe blue course us bank.","courseId":"b376f3c1-8c62-4def-8b7a-25d73b2cc01b","maxScore":58,"minScore":17,"orderIndex":52,"description":"College life eight herself move. Recently bed part contain hand tree. Particular month specific care.\nOf wish fear within he where. Growth though behavior stuff protect baby. Send produce ball.","estimatedTime":"1 weeks"}'

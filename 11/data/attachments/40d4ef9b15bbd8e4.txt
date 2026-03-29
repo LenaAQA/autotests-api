@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjM0LjgwMTI5NiIsInVzZXJfaWQiOiIyZTE2NjlhZC1mZmRmLTQ5YTMtYTRkNS1hYjIxZTNiMDNmZGUifQ.G-nigE6H7pPyLTR_i9mYQ6O50ttUbphJ4oQu15pYY8E'\
+  -H 'content-length: 431'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Stop professor system economic finish.","maxScore":77,"minScore":27,"description":"Day purpose ability memory another. A sea degree according city bit. Speak various near partner book show.\nJob herself play share successful growth maybe. Yard open politics choice term agree play.","estimatedTime":"2 weeks","previewFileId":"df2e5a28-cc60-49c4-9ba3-074be062eb84","createdByUserId":"2e1669ad-ffdf-49a3-a4d5-ab21e3b03fde"}'

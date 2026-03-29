@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjMyLjk4NzY5MyIsInVzZXJfaWQiOiI1YjJhYTc2NC00ZWY5LTQ4YzYtOGNhMy0zNzBiMjNkZDIxZjUifQ.ySHfTp8qcrwycaLOBFj_NzskYawzZ_FftA_f-SLeH6M'\
+  -H 'content-length: 373'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Chance others cut quickly appear threat two.","maxScore":56,"minScore":14,"description":"Set he such peace bit eye market despite.\nSort open born hand. Term door scientist should military. Fill themselves cut camera again.","estimatedTime":"2 weeks","previewFileId":"20694b7c-a0fb-4dae-aeee-09a3786811a5","createdByUserId":"5b2aa764-4ef9-48c6-8ca3-370b23dd21f5"}'

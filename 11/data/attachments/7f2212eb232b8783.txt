@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjIyOjMxLjgxMzU2MiIsInVzZXJfaWQiOiI5NWZhNzM0ZS0zMzZlLTQ3N2YtYjcxYy0xNzg0ODA4ZTUyNzMifQ.dvjIsdj4Y-7GM9rcX26iSWV5-uw5e-YGqBEhl8am_9I'\
+  -H 'content-length: 351'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Stuff take program election into you.","maxScore":90,"minScore":16,"description":"Discover human new. Ever realize cultural teacher street media new. Purpose type recognize stop style word baby happen.","estimatedTime":"9 weeks","previewFileId":"ac566f44-c66e-40bc-aa50-4f5fad9505ba","createdByUserId":"95fa734e-336e-477f-b71c-1784808e5273"}'
