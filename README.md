@@ -22,7 +22,7 @@ This project is specifically designed for API autotests, incorporating best prac
 
 ## Getting Started
 
-### Clone the Repository
+### 1. Clone the Repository
 
 To get started, clone the project repository using Git:
 
@@ -31,7 +31,7 @@ git clone https://github.com/LenaAQA/autotests-api.git
 cd autotests-api
 ```
 
-### Create a Virtual Environment
+### 2. Create a Virtual Environment
 
 It's recommended to use a virtual environment to manage project dependencies. Follow the instructions for your operating
 system:
@@ -50,7 +50,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-### Install Dependencies
+### 3. Install Dependencies
 
 Once the virtual environment is activated, install the project dependencies listed in `requirements.txt`:
 
@@ -58,7 +58,7 @@ Once the virtual environment is activated, install the project dependencies list
 pip install -r requirements.txt
 ```
 
-### Running the Tests with Allure Report Generation
+### 4. Running the Tests with Allure Report Generation
 
 To run the tests and generate an Allure report, use the following command:
 
@@ -68,7 +68,7 @@ pytest -m "regression" --alluredir=./allure-results
 
 This will execute all tests in the project and display the results in the terminal.
 
-### Viewing the Allure Report
+### 5. Viewing the Allure Report
 
 After the tests have been executed, you can generate and view the Allure report with:
 
