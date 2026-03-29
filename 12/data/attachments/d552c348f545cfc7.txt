@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjIzLjY1MjYxNyIsInVzZXJfaWQiOiI1NDExZGUwOC0zMTVlLTQ1YjAtYWU0Mi0wYjFlNWUzNTlmZDIifQ.YXKauJA39qx5dLB2elNrLYRpPxzusLF70I0ckEz8gbQ'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Without herself note eight data.","maxScore":93,"minScore":20,"description":"Wish management foot. Blood artist movie deep.\nResource look message authority night health piece. Age pretty do field. Style run also new read.","estimatedTime":"6 weeks","previewFileId":"6ef3f4dc-0aa7-4dd6-8713-2cf6168aa5ea","createdByUserId":"5411de08-315e-45b0-ae42-0b1e5e359fd2"}'

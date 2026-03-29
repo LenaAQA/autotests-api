@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjI2LjA1ODg5MiIsInVzZXJfaWQiOiJmZDE3MzBhOC1mNTczLTQ2NzktOGUwMi0yM2YyZWYzMzAzYzkifQ.Qy_n5This1iMwyfRHUrrITlyaYfpxtNPOkVeRE2lrpA'\
+  -H 'content-length: 364'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Add expect personal if despite recognize.","maxScore":92,"minScore":7,"description":"Certain single trouble style debate different. Pass sea who shake wonder. Fund PM everybody must whose. Next save lawyer forward.","estimatedTime":"8 weeks","previewFileId":"fc5a4745-8142-4fbd-82a4-8192c6b82a41","createdByUserId":"fd1730a8-f573-4679-8e02-23f2ef3303c9"}'

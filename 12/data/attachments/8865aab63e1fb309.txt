@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjIzLjAxNTM4MSIsInVzZXJfaWQiOiIxZmNkOTU1OC01YzQwLTQ0YzgtOTQwMS1lNjlhNGRiMGNmNDAifQ.2dsjoygLADC66iNJuWz_9Y4ZtCDxKgJZ20Yiu01YDtk'\
+  -H 'content-length: 383'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Image state month worry management other.","maxScore":98,"minScore":22,"description":"Model set leader maybe far ahead ready. Bit alone main yet inside.\nColor yet happy career fish. Foot use responsibility blue. Explain stage close.","estimatedTime":"9 weeks","previewFileId":"7873c4ee-a3aa-4a48-93a4-4b60bc597627","createdByUserId":"1fcd9558-5c40-44c8-9401-e69a4db0cf40"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjIyLjQyNzgwOSIsInVzZXJfaWQiOiJmMWFjMmE1Ni1iYmMxLTQ0ODYtODViMi0yZmI3MWVjYmIwNjAifQ.W-ucYF28tuPk8ZSYpgSOosShdYwxjpDclaSHy6bU9WY'\
+  -H 'content-length: 347'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Manager blue anything nothing.","maxScore":75,"minScore":17,"description":"Blue factor loss interview authority analysis describe its. Picture off necessary age both measure nearly. Fast sing ball.","estimatedTime":"3 weeks","previewFileId":"e9c8f44c-2938-4cfc-8b0e-2e103227ed7a","createdByUserId":"f1ac2a56-bbc1-4486-85b2-2fb71ecbb060"}'

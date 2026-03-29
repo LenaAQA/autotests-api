@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjI0LjIzOTE5MiIsInVzZXJfaWQiOiI5ZmFhOTdhNi1lNmJmLTRiY2MtYTc2Ni0zNGRhMGFkMDhhNjMifQ.3qcu09LJs_fVF1dnQ4lN8L-qRpvaCz_tsUNlV2WmPCU'\
+  -H 'content-length: 342'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Interview on hope leader others possible American.","maxScore":98,"minScore":16,"description":"Forget which office interview stop measure.\nReceive film area half. Mention check agency remain.","estimatedTime":"7 weeks","previewFileId":"36bd545c-2d70-49ee-ae14-5b6ffafaed79","createdByUserId":"9faa97a6-e6bf-4bcc-a766-34da0ad08a63"}'

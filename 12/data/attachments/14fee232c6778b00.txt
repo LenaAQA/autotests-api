@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE0OjI2OjI2LjY0MTk3NyIsInVzZXJfaWQiOiI2NmU3Nzc4ZC1hOGMzLTQ2YzAtOWUwYS05MTM4N2QyMmU5Y2QifQ.KN4DEy3evNViwxnzaq87H_Q-j7EZsj1dsLc1qFer2vg'\
+  -H 'content-length: 381'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Safe between look.","maxScore":78,"minScore":15,"description":"Prove city television sell look national. Town whether positive south walk. Gun himself industry south.\nBox everyone budget way would seat. Six maintain field culture.","estimatedTime":"5 weeks","previewFileId":"f3593774-f568-4fa3-afde-7e831046e173","createdByUserId":"66e7778d-a8c3-46c0-9e0a-91387d22e9cd"}'

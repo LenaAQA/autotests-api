@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to 'Without herself note eight data.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to '93'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to '20'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to 'Wish management foot. Blood artist movie deep.
+Resource look message authority night health piece. Age pretty do field. Style run also new read.'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to '6 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'preview_file_id' equals to '6ef3f4dc-0aa7-4dd6-8713-2cf6168aa5ea'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'created_by_user_id' equals to '5411de08-315e-45b0-ae42-0b1e5e359fd2'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema
